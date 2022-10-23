@@ -225,12 +225,24 @@ body {
   background: var(--second-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
 }
 .footer-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 70px;
   align-items: baseline;
+}
+
+.container-address {
+  margin-right: 70px;
+}
+
+.footer-social-container {
+  width: 206px;
+  height: 80px;
+  margin-right: 93px;
 }
 
 .footer-list {
@@ -257,11 +269,6 @@ body {
 
 .footer-link.contact {
   color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-social-container {
-  width: 206px;
-  height: 80px;
 }
 
 .footer-social-title {
@@ -304,6 +311,54 @@ body {
 .social-icon-link:hover,
 .social-icon-link:focus {
   background-color: var(--accent-color);
+}
+
+.footer-input-title {
+  font-weight: var(--second-font-weight);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+}
+
+.input-container input {
+  width: 358px;
+  height: 50px;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: inherit;
+  padding-left: 16px;
+  margin-right: 12px;
+}
+
+.input-btn {
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: var(--white-color);
+  font-weight: var(--second-font-weight);
+  font-size: 16px;
+  line-height: 1.87;
+  min-width: 200px;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding: 10px 32px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-btn:focus,
+.input-btn:hover {
+  background-color: var(--btn-active);
 }
 
 /* ----------------------------------MAIN INDEX------------------------------- */
