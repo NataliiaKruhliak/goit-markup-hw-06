@@ -934,13 +934,13 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
-  fill: none;
+  fill: transparent;
   margin-right: 7px;
 }
 
 .input-check:checked + .icon-checkbox {
-  border: #188ce8;
   background: var(--accent-color);
+  border: transparent;
   fill: var(--white-color);
 }
 
