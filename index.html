@@ -529,43 +529,60 @@
         <form class="modal-input-form">
           <div class="modal-input-container">
             <!-- <ul class="modal-input-list">
-              <li class="modal-input-item">
-                <label for="name"><span class="input-title">Ім'я</span></label>
-                <input
-                  type="text"
-                  name="Name"
-                  id="name"
-                  class="modal-input text"
-                />
+              <li class="modal-field">
+                <label for="name" class="input-title">Ім'я</label>
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="modal-input text"
+                    required
+                  />
+                  <svg class="modal-input-icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-person"></use>
+                  </svg>
+                </div>
               </li>
-              <li class="modal-input-item">
+              <li class="modal-field">
                 <label for="number" class="input-title">Телефон</label>
-                <input
-                  type="tel"
-                  name="Number-tel"
-                  id="number"
-                  class="modal-input text"
-                />
+                <div class="input-wrap">
+                  <input
+                    type="tel"
+                    name="number"
+                    id="number"
+                    class="modal-input text"
+                    required
+                  />
+                  <svg class="modal-input-icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-tel"></use>
+                  </svg>
+                </div>
               </li>
-              <li class="modal-input-item">
+              <li class="modal-field">
                 <label for="mail" class="input-title">Пошта</label>
-                <input
-                  type="email"
-                  name="E-mail"
-                  id="mail"
-                  class="modal-input text"
-                />
+                <div class="input-wrap">
+                  <input
+                    type="email"
+                    name="mail"
+                    id="mail"
+                    class="modal-input text"
+                  />
+                  <svg class="modal-input-icon" width="18" height="18">
+                    <use href="./images/symbol-defs.svg#icon-email"></use>
+                  </svg>
+                </div>
               </li>
-              <li class="modal-input-item">
+              <li class="modal-field-comment">
                 <label for="comment" class="input-title">Коментар</label>
                 <textarea
-                  name="Comment"
+                  class="modal-input comment"
+                  name="comment"
                   id="comment"
                   placeholder="Введіть текст"
-                  class="modal-input comment"
                 ></textarea>
               </li>
-            </ul> -->
+            </ul>-->
 
             <div class="modal-field">
               <label for="name" class="input-title">Ім'я</label>
